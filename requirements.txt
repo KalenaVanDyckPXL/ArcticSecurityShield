@@ -1,0 +1,20 @@
+# ArcticSecurityShield - Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Core ML & data
+pandas>=1.5.0
+numpy>=1.23.0
+scikit-learn>=1.2.0
+joblib>=1.2.0
+
+# Web app
+flask>=2.3.0
+
+# LLM explanations (optional - app works without this - change if not using gemini AI)
+google-genai>=0.8.0
+
+# .env support
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.3.0
